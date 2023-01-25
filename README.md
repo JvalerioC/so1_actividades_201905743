@@ -1,4 +1,4 @@
-Repositorio a las actividades del curso SO1
+##Repositorio a las actividades del curso SO1
 
-Jose Valerio Choc Mijangos
+Jose Valerio Choc Mijangos \n
 Carnet: 201905743
