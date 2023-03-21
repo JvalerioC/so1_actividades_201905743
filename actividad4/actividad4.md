@@ -2,9 +2,9 @@
 
 ## En primer lugar hay que crear un archivo de extension .sh el cual contenga la fecha actual y un saludo.
 <pre>
-#!/usr/bin/bash
-echo "Fecha $(date >+'%Y-%m-%d')
-echo "Hola mundo!.." </pre>
+#!/usr/bin/env bash
+echo "Fecha $(date +%d/%m/%Y)"
+echo "Hola mundo!..." </pre>
 
 ## Luego se procede a crear el archivo .service en la carpeta antes mensionada /etc/systemd/system, con la siguiente informacion, en donde ExectStart debe estar la ruta completa junto con el archivo del script, en este caso lo ubico en la carpeta /home/valerio/ 
 
